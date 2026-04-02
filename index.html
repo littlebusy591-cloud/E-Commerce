@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyShop | Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+
+    <div class="logo">
+        MyShop
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-box">
+        <input type="text" placeholder="Search for products...">
+        <button>Search</button>
+    </div>
+
+    <!-- Header Right -->
+    <div class="header-right">
+        <span class="email">support@myshop.com</span>
+        <a href="#" class="signin">Sign In</a>
+        <a href="#" class="login">Login</a>
+    </div>
+
+</header>
+
+
+    <!-- Banner -->
+    <section class="hero-banner">
+
+    <!-- Sliding Images -->
+    <img class="slide" src="hero3.jpg">
+    <img class="slide" src="hero4.jpg">
+    <img class="slide" src="hero5.webp">
+
+    <!-- Text Over Image -->
+    <div class="hero-content">
+        <h1>Shop Smarter, Live Better</h1>
+        <p>Premium products • Best prices • Trusted quality</p>
+        <button class="shop-btn">Shop Now</button>
+    </div>
+
+    <!-- Slider arrows -->
+    <div class="slider-controls">
+        <span class="left" onclick="showSlide(-1)">&#10094;</span>
+        <span class="right" onclick="showSlide(1)">&#10095;</span>
+    </div>
+
+</section>
+
+
+    <!-- Categories -->
+    <section class="categories">
+
+    <h2>Shop by Category</h2>
+
+    <div class="category-list">
+
+        <div class="category-card">
+            <img src="laptop.jpg" alt="Electronics">
+            <h3>Electronics</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="fashion.avif" alt="Fashion">
+            <h3>Fashion</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="book.jpg" alt="Books">
+            <h3>Books</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="electronics.jpg" alt="Home & Kitchen">
+            <h3>Home & Kitchen</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="sports.avif" alt="Sports">
+            <h3>Sports</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="beauty.jpg" alt="Beauty">
+            <h3>Beauty</h3>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- Products -->
+    <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-list">
+
+        <div class="product">
+            <img src="smartphone.jpg" alt="Smartphone">
+            <h3>Smartphone</h3>
+            <p class="desc">6.5" Display, 128GB Storage, 5G</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹15,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="headphone.jpg" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p class="desc">Noise Cancellation, 20h Battery</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="price">₹2,499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="shoes.jpg" alt="Shoes">
+            <h3>Running Shoes</h3>
+            <p class="desc">Lightweight, Comfortable Fit</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹3,299</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="book.jpg" alt="Book">
+            <h3>Programming Book</h3>
+            <p class="desc">Learn Web Development Basics</p>
+            <p class="rating">⭐⭐⭐⭐⭐</p>
+            <p class="price">₹499</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="laptop.jpg" alt="Laptop">
+            <h3>Laptop</h3>
+            <p class="desc">Intel i5, 8GB RAM, 512GB SSD</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹54,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="watch.jpg" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p class="desc">Heart Rate Monitor, Fitness Track</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹1,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="dress.jpg" alt="dress">
+            <h3>dress</h3>
+            <p class="desc">Casual/Summer dress</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹1,673</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="t-shirt.avif" alt="t-shirt">
+            <h3>t-shirt</h3>
+            <p class="desc">The Perfect Basic Tee</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹799</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="earring.jpg" alt="Smartphone">
+            <h3>Earrings</h3>
+            <p class="desc"> Dangle/Drop Earrings</p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹15,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="facewash1.jpg" alt="Smartphone">
+            <h3>Skin care product</h3>
+            <p class="desc">Gentle/Natural Cleanser </p>
+            <p class="rating">⭐⭐⭐⭐☆</p>
+            <p class="price">₹15,999</p>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- Back to Top -->
+<div class="back-to-top">
+    Back to top
+</div>
+
+<!-- Main Footer -->
+<footer class="footer">
+
+<div class="footer-container">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+        <h3>Get to Know Us</h3>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Press Releases</a>
+        <a href="#">Our Services</a>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+        <h3>Connect with Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+        <h3>Make Money with Us</h3>
+        <a href="#">Sell on MyShop</a>
+        <a href="#">Become an Affiliate</a>
+        <a href="#">Advertise Products</a>
+        <a href="#">Fulfilment Services</a>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col">
+        <h3>Let Us Help You</h3>
+        <a href="#">Your Account</a>
+        <a href="#">Returns Centre</a>
+        <a href="#">100% Purchase Protection</a>
+        <a href="#">Help</a>
+    </div>
+
+</div>
+
+<!-- Bottom Part -->
+<div class="footer-bottom">
+    <p>© 2026 MyShop.com</p>
+</div>
+
+</footer>
+
+    </footer>
+
+    <!-- LOGIN POPUP -->
+<div id="loginPopup" class="popup">
+    <div class="popup-box">
+
+        <span class="close" onclick="closePopup()">&times;</span>
+
+        <h2>Login</h2>
+
+        <input id="email" placeholder="Email">
+        <input id="pass" type="password" placeholder="Password">
+
+        <button onclick="login()">Login</button>
+
+        <p id="msg"></p>
+
+    </div>
+</div>
+
+
+</body>
+</html>
